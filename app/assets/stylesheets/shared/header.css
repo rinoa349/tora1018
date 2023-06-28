@@ -1,6 +1,26 @@
-.main-title {
-  color: green;
-  padding: 10px;
-  font-size: 40px;
-  display: block;
+header {
+  background-color: #fff6e5;
+}
+
+.header-inner {
+  display: flex;
+}
+
+.logo {
+  height: 10vh;
+  width: 18vw;
+}
+
+.header-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  width: 50%;
+  padding: 20px;
 }

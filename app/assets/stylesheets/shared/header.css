@@ -1,5 +1,6 @@
 header {
   background-color: #fff6e5;
+  font-family: 'NotoSerifJP-ExtraLight';
 }
 
 .header-inner {
@@ -9,11 +10,13 @@ header {
 .logo {
   height: 10vh;
   width: 18vw;
+  padding: 0 25% 0 0;
 }
 
 .header-lists {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 75%;
 }
 
 li {

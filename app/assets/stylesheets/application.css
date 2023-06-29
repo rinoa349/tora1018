@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@font-face {
+  font-family: 'NotoSerifJP-ExtraLight';
+  src: font-url('/assets/NotoSerifJP-ExtraLight.ttf');
+}

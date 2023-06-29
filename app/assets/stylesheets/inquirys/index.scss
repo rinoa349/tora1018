@@ -1,5 +1,6 @@
 .main-page {
   background-color: #fff6e5;
+  font-family: 'NotoSerifJP-ExtraLight';
 }
 
 .image-main {
@@ -13,4 +14,26 @@
 .upper-content {
   height: 250px;
   background-color: pink;
+}
+
+.heading-name {
+  text-align: center;
+  border-bottom: 1px solid red;
+  width: 200px;
+  margin: 40px auto;
+}
+
+.messages {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.message {
+  display: flex;
+  font-size: 18px;
+  margin: 0 0 16px 70px;
+}
+
+.message-date {
+  padding-right: 40px;
 }

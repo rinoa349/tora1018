@@ -15,5 +15,5 @@
  */
 @font-face {
   font-family: 'NotoSerifJP-ExtraLight';
-  src: font-url('/assets/fonts/NotoSerifJP-ExtraLight.otf') ;
+  src: font-url('/assets/fonts/NotoSerifJP-ExtraLight.otf') format("opentype") ;
 }

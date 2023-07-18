@@ -76,12 +76,8 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
-    date (3.3.3-java)
     erubi (1.12.0)
     ffi (1.15.5)
-    ffi (1.15.5-java)
-    ffi (1.15.5-x64-mingw32)
-    ffi (1.15.5-x86-mingw32)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.1)
@@ -105,10 +101,9 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.3)
+    mini_portile2 (2.8.4)
     minitest (5.18.1)
     msgpack (1.7.2)
-    msgpack (1.7.2-java)
     mysql2 (0.5.5)
     net-http (0.3.2)
       uri
@@ -122,24 +117,13 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nio4r (2.5.9-java)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.10-java)
-      racc (~> 1.4)
-    nokogiri (1.13.10-x64-mingw32)
-      racc (~> 1.4)
-    nokogiri (1.13.10-x86-mingw32)
-      racc (~> 1.4)
     pg (1.5.3)
-    pg (1.5.3-x64-mingw32)
-    pg (1.5.3-x86-mingw32)
     public_suffix (5.0.3)
     puma (3.12.6)
-    puma (3.12.6-java)
     racc (1.7.1)
-    racc (1.7.1-java)
     rack (2.2.7)
     rack-proxy (0.7.6)
       rack
@@ -208,7 +192,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.2.2)
     thread_safe (0.3.6)
-    thread_safe (0.3.6-java)
     tilt (2.2.0)
     timeout (0.4.0)
     turbolinks (5.2.1)
@@ -234,19 +217,13 @@ GEM
       railties (>= 4.2)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
-    websocket-driver (0.7.5-java)
-      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.6.8)
 
 PLATFORMS
-  java
   ruby
-  x64-mingw32
-  x86-mingw32
-  x86-mswin32
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)

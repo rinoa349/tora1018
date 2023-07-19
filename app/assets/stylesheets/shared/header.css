@@ -129,3 +129,11 @@ li, ol {
   font-weight: bold;
   text-align: center;
 }
+
+
+ /* スマホ表示時 */
+ @media (max-width: 599px) {
+  .page-heading {
+    font-size: 20px;
+  }
+}

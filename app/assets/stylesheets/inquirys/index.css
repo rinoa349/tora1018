@@ -55,3 +55,11 @@
   display: block;
   margin: 0 auto;
 }
+
+
+ /* スマホ表示時 */
+@media (max-width: 599px) {
+  .page-heading {
+    font-size: 20px;
+  }
+}

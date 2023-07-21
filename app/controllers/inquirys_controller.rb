@@ -1,5 +1,8 @@
 class InquirysController < ApplicationController
-  def index
-    
+  def index  
   end
+
+  def menu
+  end
+  
 end

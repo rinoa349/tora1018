@@ -1,0 +1,20 @@
+.access {
+  background-color: #fff6e5;
+  font-family: 'NotoSerifJP-ExtraLight';
+}
+
+.access-title {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.access-title-up {
+  margin: 0 auto 20px;
+}
+
+.access-adress {
+  display: flex;
+  justify-content: center;
+}

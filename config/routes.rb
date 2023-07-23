@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'inquirys#index'
+  root 'inquirys#index'
   get 'inquirys/menu'
   get 'inquirys/appointment'
   get 'inquirys/access'

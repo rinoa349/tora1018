@@ -6,11 +6,6 @@
 }
 
 .information-top {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
-.information-top p {
-  margin: 0 auto 10px;
-}

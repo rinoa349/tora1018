@@ -1,4 +1,16 @@
 .information {
   background-color: #fff6e5;
   font-family: 'NotoSerifJP-ExtraLight';
+  height: 100vh;
+  width: 100%;
+}
+
+.information-top {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-top p {
+  margin: 0 auto 10px;
 }

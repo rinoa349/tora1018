@@ -6,15 +6,20 @@
 .access-title {
   display: block;
   justify-content: center;
-  align-items: center;
-  padding: 10%;
+  padding: 4rem;
 }
 
 .access-title-up {
-  margin: 0 auto 20px;
+  align-items: center;
 }
 
 .access-adress {
   display: flex;
   justify-content: center;
+  padding: 3rem;
+}
+
+.home {
+  width: 100%;
+  height: 300px;
 }

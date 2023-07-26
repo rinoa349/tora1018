@@ -9,13 +9,16 @@
 }
 
 .access-title-up {
-  padding-bottom: 2rem;
+  font-size: 0.8rem
 }
 
 .access-title-down {
   font-size: 1.2rem;
 }
 
+.access-title-middle {
+  padding: 1rem;
+}
 
 .access-adress {
   text-align: center;

@@ -1,10 +1,11 @@
 .menu {
   background-color: #fff6e5;
   font-family: 'NotoSerifJP-ExtraLight';
+  padding-top: 4rem;
 }
 
 .este-image {
-  width: 100%;
+  width: 610px;
   height: 350px;
   padding-left: 100px;
   position: relative;
@@ -12,11 +13,11 @@
 }
 
 .este-top-title {
-  font-size: 3.7rem;
+  font-size: 60px;
   opacity: 0.5;
   color: gray;
   position: absolute;
-  top: 400px;
+  top: 465px;
   left: 12px;
 }
 

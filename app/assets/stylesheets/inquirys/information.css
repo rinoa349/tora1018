@@ -9,6 +9,9 @@
   text-align: center;
 }
 
+.news-title {
+  border-bottom: 1px solid #e9e8e5;
+}
 .date {
   padding-bottom: 10px;
   font-size: 1rem;

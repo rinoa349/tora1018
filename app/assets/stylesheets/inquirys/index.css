@@ -28,6 +28,37 @@
   padding-right: 40px;
 }
 
+.title_menu {
+  height: 21.47px;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 35px 0 10px 0;
+}
+
+.menu_title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu_title_top {
+  line-height: 32px;
+}
+
+.este1-image {
+  height: 210px;
+  width: 500px;
+  padding: 40px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 80px;
+}
+
+.este-img {
+  border-radius: 30px;
+}
+
+
 .title_news {
   height: 57.52px;
   width: 78px;
@@ -55,7 +86,6 @@
   display: block;
   margin: 0 auto;
 }
-
 
  /* スマホ表示時 */
  @media screen and (min-width:480px) {}

@@ -6,9 +6,22 @@
   <%= image_tag "room_main.JPG", class:"image-main" %>
 <body>
   <div class='contents'>
+
+    <!-- メニュー画面を表示 -->
+    <div class="menu-content">
+      <div class="title_menu_image">
+      <%= image_tag "title_menu.svg", class:"title_menu" %>
+      </div>
+      <div class="menu_title">
+       <p class="menu_title_top">それぞれのお体に合わせた<br>
+                                 最適なケアのご提案</p>
+      </div>
+      <%= image_tag "este1-image.jpeg", class: "este1-image" %>
+    </div>
+
     <!-- 新着情報を表示 -->
     <div class='upper-content'>
-      <%= image_tag "title_news.svg", size: '78x57.52', class:"title_news" %>
+      <%= image_tag "title_news.svg", class:"title_news" %>
       <ul class="messages">
         <li class="message">
           <p class="message-date">2019/10/06</p>

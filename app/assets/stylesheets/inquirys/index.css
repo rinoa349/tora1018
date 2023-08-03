@@ -21,12 +21,13 @@
 .message {
   display: flex;
   font-size: 100%;
-  margin: 30px 0 16px 100px;
+  margin: 10px 0 16px 100px;
 }
 
 .message-date {
   padding-right: 40px;
 }
+/**********  メニュー  **********/
 
 .title_menu {
   height: 21.47px;
@@ -54,17 +55,32 @@
   border-radius: 80px;
 }
 
-.este-img {
-  border-radius: 30px;
+.menu_title_middle {
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 30px;
 }
 
+.menu-link {
+  text-align: center;
+  padding: 30px;
+}
+
+.menu_link {
+  border: #000 1px solid;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 0.8rem;
+}
+
+/**********  ニュース  **********/
 
 .title_news {
   height: 57.52px;
   width: 78px;
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 30px;
 }
 
 .first-image {

@@ -7,12 +7,28 @@
 
 .information-top {
   text-align: center;
+  padding-bottom: 8%;
+}
+
+.news-list {
+  padding: 2.5% 0;
+  border-bottom: 1px solid #e9e8e5;
+}
+
+.date {
+  padding: 3%;
+  font-size: 1rem;
+  border-top: 1px solid #e9e8e5;
+}
+
+.news-date {
+  color: gray;
 }
 
 .news-title {
-  border-bottom: 1px solid #e9e8e5;
+  padding-top: 2.5%;
 }
-.date {
-  padding-bottom: 10px;
-  font-size: 1rem;
+
+.date li {
+  color: #e9e8e5;
 }

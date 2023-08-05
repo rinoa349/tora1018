@@ -20,25 +20,31 @@
         <p class="menu_title_middle">TORa オリジナルメニューをはじめ、エンビロン、セルコスメのメニューをご用意。<br>
         人の体がそれぞれ違うように、肌ケアも十人十色。<br>カウンセリングを元に最適なケアをご提案いたします。</p>
       <div class="menu-link">
-      <%= link_to "全てのメニューを見る", inquirys_menu_path, class: "menu_link" %>
+        <%= link_to "全てのメニューを見る", inquirys_menu_path, class: "menu_link" %>
       </div>
     </div>
 
 
     <!-- 新着情報を表示 -->
-    <div class='upper-content'>
+    <div class='information-top'>
       <%= image_tag "title_news.svg", class:"title_news" %>
-      <ul class="messages">
-        <li class="message">
-          <p class="message-date">2019/10/06</p>
-          <p>「TORa」オープンしました！</p>
+      <ul class="news-list">
+        <li class="date">
+          <p class= "news-date">2023.07.31</p>
+          <p class="news-title">「TORa」初めてのご来店の方</p>
         </li>
-        <li class="message">
-          <p class="message-date">2019/10/03</p>
-          <p>お得なキャンペーン実施します！</p>
+        <li class="date">
+          <p class= "news-date">2023.07.15</p>
+          <p class="news-title">暑中見舞い申し上げます。</p>
+        </li>
+        <li class="date">
+          <p class= "news-date">2023.07.04</p>
+          <p class="news-title">なおたか誕生日</p>
         </li>
       </ul>
-
+      <div class="news-link">
+        <%= link_to "ニュース一覧", inquirys_information_path, class: "news_link" %>
+      </div>
     </div>
     
     <!-- メニューを表示 -->

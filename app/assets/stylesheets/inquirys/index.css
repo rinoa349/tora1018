@@ -149,8 +149,12 @@
 .access-information {
   font-size: 1rem;
   text-align: center;
+  padding: 8% 0 0 4%;
 }
 
+.home {
+  object-fit: contain;
+}
 
  /* スマホ表示時 */
  @media screen and (min-width:480px) {}

@@ -143,18 +143,46 @@
 /*********アクセス情報*********/
 
 .access-top {
-  display: flex;
-}
-
-.access-information {
-  font-size: 1rem;
-  text-align: center;
-  padding: 8% 0 0 4%;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .home {
-  object-fit: contain;
+  width: 100%;
 }
+
+.access-comment {
+  text-align: center;
+}
+
+.access-flex {
+  display: flex;
+}
+
+.access-image {
+  width: 55%;
+  margin: auto;
+}
+
+.access-information {
+  width: 45%;
+  margin: auto .5rem;
+}
+
+  @media screen and (max-width: 767px) {
+    .access-flex {
+      display: block;
+    }
+    .access-flex .access-image {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .access-flex .access-information {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
 
  /* スマホ表示時 */
  @media screen and (min-width:480px) {}

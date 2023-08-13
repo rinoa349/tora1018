@@ -30,6 +30,10 @@
   height: 300px;
 }
 
+.home-image {
+  object-fit: cover;
+}
+
 .name {
   padding: 3rem 0 1rem 0;
 }

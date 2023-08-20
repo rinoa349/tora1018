@@ -2,7 +2,7 @@ class InquirysController < ApplicationController
   def index  
   end
 
-  def menu1
+  def menu
   end
 
   def appointment
@@ -11,7 +11,7 @@ class InquirysController < ApplicationController
   def access
   end
 
-  def information
+  def menu1
   end
   
 end

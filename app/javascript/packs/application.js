@@ -8,6 +8,7 @@ require("@rails/activestorage").start()
 require("channels")
 require("../script");
 require("../top_image");
+require("../image_slider");
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

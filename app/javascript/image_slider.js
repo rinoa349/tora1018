@@ -1,5 +1,11 @@
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3　/* この行を追加 */,
+  slidesPerView: 1,
+  breakpoints: {
+    // 768px以上の場合
+    768: {
+      slidesPerView: 3
+    }
+  },
   // ページネーションが必要なら追加
   pagination: {
     el: ".swiper-pagination"

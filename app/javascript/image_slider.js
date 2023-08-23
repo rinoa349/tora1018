@@ -1,14 +1,15 @@
-const swiper = new Swiper(".mySwiper", {
-  spaceBetween: 10,
-  slidesPerView: 4
-});
+// 画像領域を取得
+const images = document.getElementById("images");
 
-const swiper2 = new Swiper(".mySwiper2", {
-  thumbs: {
-    swiper: swiper
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  }
-});
+// 「進む」関数
+function susumu() {
+
+images.appendChild(images.children[0]);
+}
+
+
+// 「戻る」関数
+function modoru() {
+
+images.insertBefore(images.children[images.children.length-1],images.children[0]);
+}

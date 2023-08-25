@@ -1,34 +1,41 @@
-.appointment {
-  background-color: #fff6e5;
-  font-family: 'NotoSerifJP-ExtraLight';
+.slideshow-container {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
 }
 
-.swiper--wrapper {
-  /* wrapperのサイズを調整 */
+.slide {
   width: 100%;
-  height: 300px;
+  height: 800px;
+　object-fit: contain;
+  position: absolute;
 }
 
-.swiper-slide {
-  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
-  color: #ffffff;
-  width: 100%;
-  height: 100%;
+.slide img {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.slide.fade:first-child {
+  opacity: 1;
+}
+
+.backimage .text {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  line-height: 300px;
 }
 
-.swiper-slide:nth-child(3n + 1) {
-  /*1、4、7、3n+1枚目の背景色 */
-  background-color: #de4439;
-}
-
-.swiper-slide:nth-child(3n + 2) {
-  /*2、5、8、3n+2枚目の背景色 */
-  background-color: #fcd500;
-}
-
-.swiper-slide:nth-child(3n + 3) {
-  /*3、6、9、3n+3枚目の背景色 */
-  background-color: #53c638;
+.backimage .text .guidance {
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(255, 192, 203, 0.7);
+  padding: 20px;
+  border-radius: 10px;
 }

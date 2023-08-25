@@ -4,21 +4,28 @@
 ご予約
 </div>
 
-<div class="slideshow-container">
-  <div class="slide fade">
-    <%= image_tag "tiikawa1.png" %>
-  </div>
-  <div class="slide fade">
-    <%= image_tag "tiikawa2.png" %>
-  </div>
-  <div class="slide fade">
-    <%= image_tag "menu.png" %>
-  </div>
-  <div class="slide fade">
-    <%= image_tag "title_news.svg" %>
-  </div>
+<div class="slider-wrapper">
+   <div class="slide-container">
+      <div class="slide-wrapper">
+         <%= image_tag "tiikawa1.png", class:"slide" %>
+         <%= image_tag "tiikawa.jpeg", class:"slide" %>
+         <%= image_tag "tiikawa2.png", class:"slide" %>
+      </div>
+      <div class="slide-wrapper">
+         <%= image_tag "tiikawa1.png", class:"slide" %>
+         <%= image_tag "tiikawa.jpeg", class:"slide" %>
+         <%= image_tag "tiikawa2.png", class:"slide" %>
+      </div>
+      <div class="slide-wrapper">
+         <%= image_tag "tiikawa1.png", class:"slide" %>
+         <%= image_tag "tiikawa.jpeg", class:"slide" %>
+         <%= image_tag "tiikawa2.png", class:"slide" %>
+      </div>
+   </div>
+   <div class="btns-wrapper">
+      <button id="stopBtn" class="slider-btn">STOP</button>
+      <button id="startBtn" class="slider-btn">START</button>
+   </div>
 </div>
-:
-:
 
 <%= render "shared/footer" %>

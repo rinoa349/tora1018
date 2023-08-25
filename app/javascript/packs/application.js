@@ -21,3 +21,5 @@ require("../image_slider");
 // = require jquery_ujs
 // = require turbolinks
 // = require_tree .
+//= require swiper/swiper-bundle.js
+//= require swiper.js

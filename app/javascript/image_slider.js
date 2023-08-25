@@ -1,15 +1,10 @@
-// 画像領域を取得
-const images = document.getElementById("images");
-
-// 「進む」関数
-function susumu() {
-
-images.appendChild(images.children[0]);
-}
-
-
-// 「戻る」関数
-function modoru() {
-
-images.insertBefore(images.children[images.children.length-1],images.children[0]);
-}
+const mySwiper = new Swiper ('.swiper', {
+  parallax: true, //パララックスにするか
+  speed: 1500,
+  autoplay: { //自動再生する
+     delay: 5000, //次のスライドに切り替わるまでの時間
+  },
+  allowTouchMove: true, //フリック可能にするか
+  loop: true, //最後に達したら先頭に戻る
+  centeredSlides : true, // アクティブなスライドをセンターにするか
+});

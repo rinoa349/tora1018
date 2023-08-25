@@ -15,7 +15,4 @@
   object-fit:cover;
   border: 1px solid #ddd;
 }
-@keyframes slide-flow {
-     0% {transform: translateX(0);}
- 100% {transform: translateX(-100%);}
-}
+

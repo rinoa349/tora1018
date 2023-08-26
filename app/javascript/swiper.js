@@ -1,1 +1,5 @@
-$('.slide-items').slick();
+$(function() {
+  $('.hoge').slick({
+      dots: true,
+  });
+});

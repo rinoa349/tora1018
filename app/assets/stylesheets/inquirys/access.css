@@ -55,10 +55,11 @@
 
 
 .slider > div {
-	max-width:100%;
+	max-width:50%;
 	max-height:800px;
 	position:relative;
 	border:1px solid lightgray;
+  margin: 0 auto;
 }
 .slider > div > ul {
 	padding:0;
@@ -125,10 +126,10 @@
 	}
 }
 .slider .thumbs {
-	max-width:100%;
+	max-width:25%;
 	border:1px solid lightgray;
 	list-style:none;
-	margin:0;
+	margin:0 auto;
 	padding:0;
 	font-size:0;
 }

@@ -9,6 +9,7 @@ require("channels")
 require("../script");
 require("../top_image");
 require("../image_slider");
+require("../swiper");
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
@@ -19,7 +20,3 @@ require("../image_slider");
 
 // = require jquery
 // = require jquery_ujs
-// = require turbolinks
-// = require_tree .
-//= require swiper/swiper-bundle.js
-//= require swiper.js

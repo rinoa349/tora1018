@@ -1,10 +1,10 @@
 <%= render "shared/header" %>
 
 <div class="access">
-  <div class="access-title">
-    <div class="access-title-up">information / access</div>
-    <div class="access-title-middle">-</div>
-    <div class="access-title-down">サロン案内／アクセス</div>
+  <div class="title">
+    <div class="title-up">information / access</div>
+    <div class="title-middle">-</div>
+    <div class="title-down">サロン案内／アクセス</div>
   </div>
 
   <div class="home-image">
@@ -21,81 +21,6 @@
   <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.8945784601055!2d138.15274949999994!3d36.580758200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8384790b477f%3A0x10a1138aa568a0b2!2z44CSMzgxLTIyMjMg6ZW36YeO55yM6ZW36YeO5biC6YeM5bO277yS77yX4oiS77ySIOOCv-OCpuODs-OCs-ODvOODiCDjgYTjgZrjgb8gQQ!5e0!3m2!1sja!2sjp!4v1690082679566!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-
-
-  <div class="slider">
-	<div>
-		<ul>
-			<li><a href="https://cdn1.vectorstock.com/i/1000x1000/24/80/silhouettes-of-protesters-vector-13292480.jpg"><img src="https://cdn1.vectorstock.com/i/1000x1000/24/80/silhouettes-of-protesters-vector-13292480.jpg"></a></li>
-			<li><a href="https://media.istockphoto.com/id/187848640/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/%E6%80%92%E3%82%8A%E3%82%A6%E3%82%B1.jpg?s=612x612&w=0&k=20&c=jPCiWWjWf4Q_xaWfjXuNyVR-gI7Um3my51RY6AXqgSc="><img src="https://media.istockphoto.com/id/187848640/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/%E6%80%92%E3%82%8A%E3%82%A6%E3%82%B1.jpg?s=612x612&w=0&k=20&c=jPCiWWjWf4Q_xaWfjXuNyVR-gI7Um3my51RY6AXqgSc="></a></li>
-			<li><a href="https://media.istockphoto.com/id/1176042958/vector/silhouette-group-of-people-raised-fist-and-protest-signs-in-yellow-evening-sky-background.jpg?s=612x612&w=0&k=20&c=XixmXcHUVKpkL5sPxfPhLLhIEOfCZVWyuwITkodnViw="><img src="https://media.istockphoto.com/id/1176042958/vector/silhouette-group-of-people-raised-fist-and-protest-signs-in-yellow-evening-sky-background.jpg?s=612x612&w=0&k=20&c=XixmXcHUVKpkL5sPxfPhLLhIEOfCZVWyuwITkodnViw="></a></li>
-			<li><a href="https://media.istockphoto.com/id/499556971/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/manifestation.jpg?s=612x612&w=0&k=20&c=kyNGRiDMdir8rOYos_bP_g8jKsjcrKiD_ilkyTjgAxc="><img src="https://media.istockphoto.com/id/499556971/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/manifestation.jpg?s=612x612&w=0&k=20&c=kyNGRiDMdir8rOYos_bP_g8jKsjcrKiD_ilkyTjgAxc="></a></li>
-		</ul>
-		<span class="arrow left"></span>
-		<span class="arrow right"></span>
-	</div>
-	<ul class="thumbs">
-		<li><img src="https://cdn1.vectorstock.com/i/1000x1000/24/80/silhouettes-of-protesters-vector-13292480.jpg"></li>
-		<li><img src="https://media.istockphoto.com/id/187848640/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/%E6%80%92%E3%82%8A%E3%82%A6%E3%82%B1.jpg?s=612x612&w=0&k=20&c=jPCiWWjWf4Q_xaWfjXuNyVR-gI7Um3my51RY6AXqgSc="></li>
-		<li><img src="https://media.istockphoto.com/id/1176042958/vector/silhouette-group-of-people-raised-fist-and-protest-signs-in-yellow-evening-sky-background.jpg?s=612x612&w=0&k=20&c=XixmXcHUVKpkL5sPxfPhLLhIEOfCZVWyuwITkodnViw="></li>
-		<li><img src="https://media.istockphoto.com/id/499556971/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/manifestation.jpg?s=612x612&w=0&k=20&c=kyNGRiDMdir8rOYos_bP_g8jKsjcrKiD_ilkyTjgAxc="></li>
-	</ul>
-</div>
-
-<script>
-window.addEventListener('load', function () {
-	document.querySelectorAll('.slider').forEach(slider => {
-		//左矢印クリック
-		slider.querySelector('.left').onclick = function () {
-			let ul = this.parentNode.querySelector('ul');
-			ul.scrollLeft -= ul.clientWidth;
-		};
-		//右矢印クリック
-		slider.querySelector('.right').onclick = function () {
-			let ul = this.parentNode.querySelector('ul');
-			ul.scrollLeft += ul.clientWidth;
-		};
-		//サムネイル番号のカウント用
-		let thumbs_no = 0;
-		//サムネイル番号の割り振りとクリックイベントの追加
-		slider.querySelectorAll('.thumbs li').forEach(thumbs_elm => {
-			if (thumbs_no == 0) {
-				//最初は1つ目のサムネイルが選択された状態にしておく
-				thumbs_elm.classList.add('selected');
-			}
-			//自身が何番目の要素かdataset属性に保存しておく
-			thumbs_elm.dataset.no = thumbs_no++;
-			//サムネイルクリック時のイベント
-			thumbs_elm.onclick = function () {
-				//現在アクティブなサムネイルのクラスを変更（選択解除）
-				slider.querySelector('.thumbs .selected').classList.remove('selected');
-				//次にアクティブにするサムネイルのクラスを変更（選択状態）
-				this.classList.add('selected');
-				//サムネイル番号からスクロール量を算出する
-				let preview_ul = slider.querySelector('div > ul');
-				preview_ul.scrollLeft = (preview_ul.clientWidth * this.dataset.no);
-			}
-		});
-		//スクロール発生時のイベント
-		slider.querySelector('div > ul').onscroll = function () {
-			//onscrollはスクロールが終わるまでに何度も発生するため、
-			//100ミリ秒間onscrollが発生しなかったときに限り、処理を続行する
-			clearTimeout(slider.dataset.timeoutid);
-			slider.dataset.timeoutid = setTimeout(function () {
-				//現在アクティブなサムネイルのクラスを変更（選択解除）
-				slider.querySelector('.thumbs .selected').classList.remove('selected');
-				//プレビューとサムネイルのノードを取得
-				let preview_ul = slider.querySelector('div > ul');
-				let thumbs = slider.querySelector('.thumbs');
-				//現在のスクロール量からサムネイル番号を算出
-				let thumbs_no = Math.floor(preview_ul.scrollLeft / preview_ul.clientWidth);
-				//アクティブにするサムネイルのクラスを変更（選択状態）
-				thumbs.children[thumbs_no].classList.add('selected');
-			}, 100);
-		};
-	});
-});
-</script>
 
 
 </div>

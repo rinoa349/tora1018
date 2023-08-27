@@ -2,11 +2,28 @@
 <%= render "shared/header" %>
 <div class='main-page'>
   <!-- トップ画像を表示 -->
-  <div class="container">
+<div id="photo">
     <%= image_tag "room_main.JPG", class:"image" %>
     <%= image_tag "room1.JPG", class:"image" %>
     <%= image_tag "room_main.JPG", class:"image" %>
-  </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    const setImg = '#photo';
+    const fadeSpeed = 1600;
+    const switchDelay = 4000;
+
+    $(setImg).children('img').css({opacity:'0'});
+    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+    setInterval(function(){
+        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+    },switchDelay);
+});
+</script>
+
 <body>
   <div class='contents'>
 

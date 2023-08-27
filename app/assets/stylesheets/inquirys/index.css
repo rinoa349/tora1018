@@ -3,64 +3,25 @@
   font-family: 'NotoSerifJP-ExtraLight';
 }
 
-/*.image {
-  height: 75vh;
+#photo {
   width: 100%;
-}*/
-
-.container {
-	position: relative;
-	width: 100%;
-	height: 250px;
-}
-
-.image {
-	position: absolute;
-	width: 100%;
-	opacity: 0;
-	animation: change-img-anim 30s infinite;
-}
-
-.image:nth-of-type(1) {
-	animation-delay: 0s;
-}
-.image:nth-of-type(2) {
-	animation-delay: 10s;
-}
-.image:nth-of-type(3) {
-	animation-delay: 20s;
-}
-
-@keyframes change-img-anim {
-	0%{ opacity: 0;}
-	10%{ opacity: 1;}
-	90%{ opacity: 1;}
-	100%{ opacity: 0;}
-}
-
-.upper-content {
-  height: 250px;
-  background-color: #fff6e5;;
-}
-
-.messages {
-  width: 100vw;
+  height: 700px;
   margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
 }
 
-.message {
-  display: flex;
-  font-size: 100%;
-  margin: 10px 0 16px 100px;
+#photo img {
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
-.message-date {
-  padding-right: 40px;
-}
 /**********  メニュー  **********/
 
 .menu-content {
-  padding-top: 65%;
+  padding-top: 1%;
 }
 .title_menu {
   height: 21.47px;

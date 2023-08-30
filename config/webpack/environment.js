@@ -1,6 +1,3 @@
-environment.plugins.prepend('Provide',
-  new webpack.ProvidePlugin({
-    $: 'jquery',
-    jQuery: 'jquery'
-  })
-)
+const { environment } = require('@rails/webpacker')
+
+module.exports = environment

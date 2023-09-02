@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'inquirys/menu'
   get 'inquirys/appointment'
   get 'inquirys/access'
-  get 'inquirys/menu1'
+  get 'inquirys/menu_display'
 end

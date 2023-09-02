@@ -11,7 +11,7 @@ class InquirysController < ApplicationController
   def access
   end
 
-  def menu1
+  def menu_display
   end
   
 end

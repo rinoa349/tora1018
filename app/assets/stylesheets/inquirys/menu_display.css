@@ -5,6 +5,13 @@
   width: 100%;
 }
 
+.under_line {
+  border-top: 1px solid rgba(151, 149, 149, 0.2);
+  border-width: medium;
+  width: 80%;
+  margin: 30px auto 0;
+}
+
 .menu_display_main__title {
   text-align: center;
   font-size: 4rem;

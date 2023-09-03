@@ -1,0 +1,20 @@
+.menu_display {
+  background-color: #fff6e5;
+  font-family: 'NotoSerifJP-ExtraLight';
+  height: 100vh;
+  width: 100%;
+}
+
+.menu_display_main__title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(227, 202, 58);
+}
+
+.menu_display_title {
+  padding: 2rem 0 1rem 10%;
+  font-size: 23px;
+  color: rgb(193, 166, 18);
+  font-weight: bolder;
+}

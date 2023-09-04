@@ -45,6 +45,6 @@
 .background {
   width: 100%;
   height: 100vh;
-  background-image: url("<%= asset_path('home.jpeg') %>");
+  background-image: url("/images/hawai.jpeg");
   background-repeat: no-repeat;
 }

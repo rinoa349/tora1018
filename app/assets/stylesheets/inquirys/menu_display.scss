@@ -2,7 +2,7 @@
   font-family: 'NotoSerifJP-ExtraLight';
   height: 100%;
   width: 100%;
-  position: relative;
+
 }
 
 .under_line {
@@ -35,20 +35,22 @@
 .menu_display_sub_title {
   display: flex;
   justify-content: space-around;
-  line-height: 18px;
+  line-height: 2.6em;
+  font-size: 100%;
 }
 
 .menu_display_title_price {
   text-align: center;
+  font-size: 100%;
 }
 
 .background {
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  height: 100%;
   background-image: image-url('background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+
   background-position: center;
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;

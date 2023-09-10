@@ -2,6 +2,8 @@
   background-color: #fff6e5;
   font-family: 'NotoSerifJP-ExtraLight';
   padding-top: 4rem;
+  width: auto;
+  height: auto;
 }
 
 .este-image {
@@ -36,29 +38,29 @@
   opacity: 0.5;
 }
 
-.middle-menu-title {
-  display: flex;
-  justify-content: space-between;
-  padding: 3.5rem 2rem 0 1rem;
-  opacity: 0.5;
-  color: gray;
-}
-
-.middle-menu-main-title {
-  font-size: 2rem;
-}
-
-.middle-menu-sub-title {
-  font-size: 0.8rem;
-  padding-top: 0.8rem;
-}
-
-.middle-border {
-  text-decoration: underline;
-}
 
 /******* カイロメニュー *******/
+.kairo_menu_main {
+  padding-bottom: 5em;
+}
+.kairo_container {
+  display: flex;
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #fce4ec;
+  border-radius: 10px;
+}
 
+.kairo_image {
+  
+}
+
+.kairo_menu_title {
+}
+
+.kairo_comment {
+  
+}
 
 /* スマホ表示時 */
 @media screen and (min-width:480px) {}

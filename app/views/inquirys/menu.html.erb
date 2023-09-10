@@ -20,7 +20,7 @@
     <div class="kairo_menu">
       <div class="kairo_container">
         <%= image_tag"kairo_menu1.jpeg", class:"kairo_image" %>
-        <div class="kairo_menu_title">美骨カイロコース<br>
+        <div class="kairo_menu_title">【　美骨カイロコース　】<br><br>
           人気メニューの「全身カイロ骨格矯正」「筋肉トリートメント肋骨骨盤締め」「小顔矯正」のフルコースです。<br>
           貴方のコンプレックスを全て改善、本来の綺麗で明るい自分に出会えます。
         </div>
@@ -28,7 +28,7 @@
 
       <div class="kairo_container">
         <%= image_tag"kairo_menu2.jpeg", class:"kairo_image" %>
-        <div class="kairo_menu_title">エステコース<br>
+        <div class="kairo_menu_title">【　エステコース　】<br><br>
           オイルを使った足、背中、お腹、腕、デコルテの全身オールハンドトリートメントに加え<br>
           気になる部位に集中的にアプローチ。
         </div>
@@ -36,18 +36,22 @@
       
       <div class="kairo_container">
         <%= image_tag"kairo_menu3.jpeg", class:"kairo_image" %>
-        <div class="kairo_menu_title">オプションコース（トリートメント）<br>
-          お好みの“時間とメニュー”の組み合わせが楽しめる、当サロンの一番人気のコースです！
+        <div class="kairo_menu_title">【　オプションコース（トリートメント）　】<br><br>
+          お好みの“時間とメニュー”の組み合わせが楽しめる、当サロンの一番人気のコースです。
         </div>
       </div>
 
       <div class="kairo_container">
         <%= image_tag"kairo_menu4.jpeg", class:"kairo_image" %>
-        <div class="kairo_menu_title">美肌フェイシャル<br>
+        <div class="kairo_menu_title">【　美肌フェイシャル　】<br><br>
           丁寧なクレンジング・洗顔の後、フェイシャルマッサージで血行を良くし、<br>
           くすみやむくみを解消します。
         </div>
       </div>
+
+      <div class="menu-link">
+        <%= link_to "詳しくメニューを見る", inquirys_menu_display_path, class: "menu_link" %>
+      </div><br><br>
   </div>
 </div>
 <%= render "shared/footer" %>

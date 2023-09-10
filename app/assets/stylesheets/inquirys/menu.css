@@ -49,10 +49,21 @@
 }
 .kairo_container {
   display: flex;
-  margin: 5em 5em;
+  margin: 3em 5em;
   padding: 1em;
   background-color: rgb(242, 234, 234);
   border-radius: 20px;
+}
+
+.kairo_image {
+  border-radius: 20px;
+  width: 15em;
+}
+
+.kairo_menu_title {
+  padding: 1em 0 0 1.5em;
+  line-height: 1.8em;
+  opacity: 0.5;
 }
 
 /* スマホ表示時 */

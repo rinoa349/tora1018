@@ -27,8 +27,8 @@
 }
 
 .home {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 30em;
 }
 
 .home-image {
@@ -40,6 +40,9 @@
 }
 
 .adress {
+  padding-bottom: 1rem;
+}
+.phone-number {
   padding-bottom: 1rem;
 }
 

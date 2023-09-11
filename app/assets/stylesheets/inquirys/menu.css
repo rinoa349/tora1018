@@ -57,7 +57,8 @@
 
 .kairo_image {
   border-radius: 20px;
-  width: 15em;
+  width: 30%;
+  height: 12rem;
 }
 
 .kairo_menu_title {

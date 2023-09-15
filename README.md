@@ -24,3 +24,11 @@ https://docs.google.com/spreadsheets/d/1sBBnuA2maPVzBURtgVYDiZVPkAMfv5AS8bGCAxhP
 ・インフラ  
 ・テキストエディタ  
 ・タスク管理
+# ローカルでの動作方法
+以下のコマンドを順に実行。  
+% git clone https://github.com/rinoa349/tora1018.git  
+% cd tora1018  
+% bundle install  
+% yarn install
+# 工夫したポイント
+エステ店のホームページ作成ということで、新規のお客様が見やすいように文字の大きさ、行間、背景色を意識し、全体的に柔らかい印象になるように開発した。店内の雰囲気や、お客様の感想などの写真をストレスなく見れるようにJavaScriptでハンバーガーメニューを作成し、

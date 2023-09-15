@@ -5,7 +5,7 @@
 
 #photo {
   width: 100%;
-  height: 23rem;
+  height: 40rem;
   margin: 0 auto;
   text-align: left;
   overflow: hidden;
@@ -258,4 +258,52 @@
 
 @media screen and (min-width:1000px) {
   /*　画面サイズ 1000px以上から適用　*/
+}
+
+
+@media screen and (max-width: 767px) {
+  #photo {
+      height: 15rem; 
+  }
+   /*************************/
+    .title {
+      text-align: center;
+      padding: 1rem;
+      opacity: 0.6;
+    }
+    .title-up {
+      font-size: 0.8rem
+    }
+    .title-down {
+      font-size: 0.7rem;
+    }
+    .title-middle {
+      padding: 0.5px;
+    }
+    .este1-image {
+      height: 9rem;
+      width: 60%;
+      padding: 15px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 30px;
+    }
+    .menu_title_middle {
+      font-size: 0.6rem;
+      text-align: center;
+      line-height: 20px;
+    }
+    /*************************/
+    .menu-link {
+      text-align: center;
+      padding: 15px;
+      margin-top: 3%;
+      opacity: 0.7;
+    }
+    .menu_link {
+      border: #000 1px solid;
+      text-decoration: none;
+      padding: 2%;
+      font-size: 0.5rem;
+    }
 }

@@ -18,3 +18,4 @@ https://docs.google.com/spreadsheets/d/1sBBnuA2maPVzBURtgVYDiZVPkAMfv5AS8bGCAxhP
 各メニューをすぐに検索できるよう、ハンバーガーメニューを実装。
 [![Image from Gyazo](https://i.gyazo.com/41eb80087ea9634062ef33f76b4bdc01.gif)](https://gyazo.com/41eb80087ea9634062ef33f76b4bdc01)
 # 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/a0afddaaf0533fc5184f8ab67dee0b41.png)](https://gyazo.com/a0afddaaf0533fc5184f8ab67dee0b41)

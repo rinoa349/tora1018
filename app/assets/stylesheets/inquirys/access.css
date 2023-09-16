@@ -56,3 +56,14 @@
 .map {
   padding-bottom: 4rem;
 }
+
+
+@media screen and (max-width: 767px) {
+  .access-adress {
+    text-align: center;
+    margin: 5em 20em;
+    padding: 2.5em;
+    background-color: rgb(242, 234, 234);
+    border-radius: 20px;
+  }
+}

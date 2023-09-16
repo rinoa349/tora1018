@@ -61,9 +61,13 @@
 @media screen and (max-width: 767px) {
   .access-adress {
     text-align: center;
-    margin: 5em 20em;
-    padding: 2.5em;
+    margin: 2px 2em;
+    padding: 1rem;
     background-color: rgb(242, 234, 234);
     border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  .map {
+    padding-bottom: 1rem;
   }
 }

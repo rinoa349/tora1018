@@ -57,5 +57,16 @@
 
 /******* レスポンシブ *******/
 @media screen and (max-width: 767px) {
-  
+  .menu_display_main__title {
+    font-size: 2.5rem;
+  }
+  .menu_display_title {
+    font-size: 1.1rem;
+  }
+  .menu_display__sub_title {
+    font-size: 1rem;
+  }
+  .menu_display_sub_title {
+    font-size: 0.8rem;
+  }
 }

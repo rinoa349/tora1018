@@ -13,3 +13,16 @@
  @media screen and (min-width:480px) {}
 @media screen and (min-width:768px) and (max-width:1024px) {}
 @media screen and (min-width:1024px) {}
+
+@media screen and (max-width: 767px) {
+  .logo-bottom {
+    height: 40px;
+    width: 80px;
+  }
+  .footer {
+    background-color: #fff6e5;
+    text-align: center;
+    font-family: 'NotoSerifJP-ExtraLight';
+    font-size: 0.7rem;
+  }
+}

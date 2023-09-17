@@ -135,3 +135,65 @@ ul, ol {
 @media screen and (min-width:480px) {}
 @media screen and (min-width:768px) and (max-width:1024px) {}
 @media screen and (min-width:1024px) {}
+
+
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 40px;
+    width: 80px;
+    padding: 0 25% 0 0;
+  }
+  
+  .menu > ul > li, ol {
+    padding-bottom: 20%;/*リスト下の余白*/
+    font-size: 0.8rem;
+    font-weight: solid;
+    text-align: center;
+  }
+  .sp-nav {
+    position: fixed;
+    right: -100%; /*ハンバーガーがクリックされる前はWindow右側に隠す*/
+    top: 0;
+    width: 40%; /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #fff;
+    transition: all 0.5s;
+    z-index: 200;
+    overflow-y: auto; /* メニューが多くなったらスクロールできるように */
+    background-color: rgba(255,255,255,0.8);
+  }
+  .hamburger {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 300;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    right: 0;
+    background-color: #000;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+  
+  .hamburger__line--2 {
+    top: 9px;
+  }
+  
+  .hamburger__line--3 {
+    top: 18px;
+  }
+  a {
+    color: #000;
+    opacity: 0.8;
+  }
+}

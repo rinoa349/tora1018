@@ -76,7 +76,7 @@
   .menu {
     background-color: #fff6e5;
     font-family: 'NotoSerifJP-ExtraLight';
-    padding-top: 1rem;
+    padding-top: 0.1rem;
     width: auto;
     height: auto;
   }
@@ -93,7 +93,7 @@
     opacity: 0.5;
     color: gray;
     position: absolute;
-    top: 245px;
+    top: 190px;
     left: 7px;
     object-fit: contain;
   }
